@@ -3,7 +3,7 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
-    "@openzeppelin/contracts": "^4.3.0",
+    "@openzeppelin/contracts": "^4.9.2",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.7.1",
@@ -33,7 +33,7 @@
     "test": "npx hardhat test",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "erc20": "npx hardhat run scripts/erc20.ts",
-    "nft": "npx hardhat run scripts/nft.ts --network mainnet",
+    "nft": "npx hardhat run scripts/nft.ts",
     "storage": "npx hardhat run scripts/storage.ts",
     "send-avax-wallet-signer": "npx hardhat run scripts/sendAvaxWalletSigner.ts",
     "send-avax-json-provider": "npx hardhat run scripts/sendAvaxJSONProvider.ts",
